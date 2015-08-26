@@ -4,8 +4,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.irodgal.App;
-
 /**
  * Unit test for simple App.
  */
@@ -27,10 +25,9 @@ public class AppTest {
 		}
 		// System.out.println(output);
 		// assertThat(output, equalTo("hola"));
-		assertTrue(output
-				.contains("<title>NFL.com - Official Site of the National Football League</title>"));
+		assertTrue(output.contains("<title>NFL.com - Official Site of the National Football League</title>"));
 		assertTrue(output.contains("hd-scorestrip"));
-		// assertTrue(output.contains("yui3-scorestrip-tile-clock"));
+		assertTrue(output.contains("yui3-scorestrip-tile-clock"));
 
 	}
 
